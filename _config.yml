@@ -4,16 +4,16 @@ layouts:     ./_layouts
 timezone:    Asia/Hongkong
 
 # Site settings
-email: 1540294142@qq.com
-author: Joytou Wu
-owner_name: Joytou Wu
-github_username: joytou
-repo: JOYTOU
+email: 920697302@qq.com
+author: 张广彬
+owner_name: zdnfzgb
+github_username: zdnfzgb
+repo: zdnfzgb
 
 #Server
-url: http://joytou.nets.hk
-github: https://github.com/joytou/
-coding: https://coding.net/joytou/
+url: zdnfzgb.github.io
+github: zdnfzgb.github.io
+coding: zdnfzgb.github.io
 baseurl: ""
 
 #Page settings
@@ -30,13 +30,13 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt']
 
 # Description
-description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+description: "个人学习笔记与作品展示。Not only for the existence of the blog, but also because of the existence of the blog."
 # Keywords
 keywords:
         - "github"
         - "bootstrap"
         - "blog"
-        - "joytou"
+        - "zdnfzgb"
         - "markdown"
         - "jekyll"
         - "博客"
