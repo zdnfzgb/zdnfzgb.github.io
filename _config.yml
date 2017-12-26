@@ -1,37 +1,70 @@
-title: Hello, world! I'm David Freeman
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-permalink: ':title/'
-baseurl: "/flexible-jekyll" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-site-twitter: #if your site has a twitter account, enter it here
+# Resources settings
+source:      .
+layouts:     ./_layouts
+timezone:    Asia/Hongkong
 
-# Author Settings
-author: David Freeman # add your name
-author-img: david-freeman.jpg # add your photo
-about-author: I am a web developer focusing on front-end development. Always hungry to keep learning. # add description
-twitter: # add your Twitter handle
-facebook: # add your Facebook handle
-github: artemsheludko # add your Github handle
-linkedin: # add your Linkedin handle
-email: # add your Email address
+# Site settings
+email: 1540294142@qq.com
+author: Joytou Wu
+owner_name: Joytou Wu
+github_username: joytou
+repo: JOYTOU
 
-# Disqus
-discus-identifier: mr-brown # add your discus identifier
+#Server
+url: http://joytou.nets.hk
+github: https://github.com/joytou/
+coding: https://coding.net/joytou/
+baseurl: ""
 
-# Tracker
-analytics: # Google Analytics
-
-# Build Settings
+#Page settings
+future: true
+show_drafts: nil
+lsi: true
+published: false
+safe: false
+permalink: /:year/:month/:day/:title/
 markdown: kramdown
-plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jemoji
+excerpt_separator: '<!-- more -->'
 
-paginate: 8
-paginate_path: "/page/:num"
+exclude: ['README.md','Manifest.md']
+include: ['robots.txt']
 
-exclude: ["node_modules", "gulpfile.js", "package.json", "yarn.lock"]
+# Description
+description: "只为博客而生，也因为博客而存在。Not only for the existence of the blog, but also because of the existence of the blog."
+# Keywords
+keywords:
+        - "github"
+        - "bootstrap"
+        - "blog"
+        - "joytou"
+        - "markdown"
+        - "jekyll"
+        - "博客"
+        - "个人博客"
+        - "博客模板"
+        
+#Update configuration
+versioncode: 1
+        #The current versioncode.
+versionname: "1.0.1"
+        #The current versionname.
+#remind: true
+        #Whether to remind you to upgrade the latest version when there is the latest version.
+
+#Others
+#Baidu
+BaiduSiteVerification: "eb6Z6IT34b"
+#Sogou
+SogouSiteVerification: "xhqLIE4SUI"
+#360
+360SiteVerification: "24cc2fe4596dc5c6885b587f8db09733"
+#51La
+51la: "19258191"
+51lamb: "1"
+
+coding_comments:
+  owner: 'joytou'
+  repo: 'JOYTOU'
+  oauth:
+    client_id: '624713aab28c44e0555b0e8d5d18dece'
+    client_secret: '5d2d45460648bfbd3b9f77bead1a0ac6aa7c3c95'
