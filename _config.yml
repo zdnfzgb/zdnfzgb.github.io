@@ -6,9 +6,9 @@ timezone:    Asia/Hongkong
 # Site settings
 email: 920697302@qq.com
 author: 张广彬
-owner_name: zdnfzgb
+owner_name: 张广彬
 github_username: zdnfzgb
-repo: zdnfzgb
+repo: zdnfzgb.github.io
 
 #Server
 url: zdnfzgb.github.io
@@ -30,18 +30,17 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt']
 
 # Description
-description: "个人学习笔记与作品展示。Not only for the existence of the blog, but also because of the existence of the blog."
+description: "个人学习笔记与作品展示。Personal study notes and works."
 # Keywords
 keywords:
         - "github"
-        - "bootstrap"
         - "blog"
         - "zdnfzgb"
         - "markdown"
         - "jekyll"
         - "博客"
-        - "个人博客"
-        - "博客模板"
+        - "Tableau"
+        - "个人作业展示"
         
 #Update configuration
 versioncode: 1
