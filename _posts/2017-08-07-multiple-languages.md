@@ -4,7 +4,7 @@ title: "考试错题笔记"
 date: 2017-08-07 10:08:00 +0800
 lang: cn
 nav: post
-
+stickie: true
 category: Article - information visualization
 tags: [visualization]
 ---
