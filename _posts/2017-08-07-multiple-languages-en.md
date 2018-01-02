@@ -6,7 +6,7 @@ lang: en
 nav: post
 stickie: true
 category: Article - information visualization
-tags: [visualization]
+tags: [Article]
 ---
 
 * content
