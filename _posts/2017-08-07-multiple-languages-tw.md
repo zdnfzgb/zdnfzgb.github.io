@@ -5,7 +5,7 @@ date: 2017-08-07 10:08:00 +0800
 lang: tw
 nav: post
 stickie: true
-category: 文章-信息可視化
+category: Article - information visualization
 tags: [visualization]
 ---
 

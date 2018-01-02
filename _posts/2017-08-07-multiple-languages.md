@@ -5,14 +5,14 @@ date: 2017-08-07 10:08:00 +0800
 lang: cn
 nav: post
 stickie: true
-category: 文章-信息可视化
+category: Article - information visualization
 tags: [visualization]
 ---
 
 * content
 {:toc}
 
-如何为Jekyll网站无插件式的添加多语言功能？
+可视化小知识点汇总
 <!-- more -->
 
 - 1.在'_data'文件夹中创建名为'(语言代码).yml'的文件
