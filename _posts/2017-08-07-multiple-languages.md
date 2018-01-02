@@ -1,11 +1,12 @@
 ---
 layout: postcn
-title: "为Jekyll网站添加多语言功能"
+title: "考试错题笔记"
 date: 2017-08-07 10:08:00 +0800
 lang: cn
 nav: post
-category: personal
-tags: [jekyll, multiple-languages]
+stickie: true
+category: 文章-信息可视化
+tags: [visualization]
 ---
 
 * content

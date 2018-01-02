@@ -1,11 +1,12 @@
 ---
 layout: posten
-title: "Add multiple languages for Jekyll web site"
+title: "Take notes for exam mistakes"
 date: 2017-08-07 10:08:00 +0800
 lang: en
 nav: post
-category: personal
-tags: [jekyll, multiple-languages]
+stickie: true
+category: Article - information visualization
+tags: [visualization]
 ---
 
 * content

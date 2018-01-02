@@ -1,11 +1,12 @@
 ---
 layout: posttw
-title: "爲Jekyll網站添加多語言功能"
+title: "考試錯題筆記"
 date: 2017-08-07 10:08:00 +0800
 lang: tw
 nav: post
-category: personal
-tags: [jekyll, multiple-languages]
+stickie: true
+category: 文章-信息可視化
+tags: [visualization]
 ---
 
 * content
