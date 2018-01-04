@@ -1,23 +1,23 @@
 ---
 layout: default
-nav: post
-permalink: /cn/post/
+nav: category
+permalink: /cn/categories/
 lang: cn
 ---
 
 <ul id="myTab" class="nav nav-tabs">
-{% for category in site.post %}
+{% for category in site.categories %}
 	{% capture cn %}{{ category | first }}{% endcapture %}
 	{% if categoryname != cn %}
 		{% assign categoryname = cn %}
 	    <li{% if forloop.first %} class="active"{% endif %}>
-		  <a href="/{{ page.lang }}/post/#aa{{ cn }}" data-toggle="tab">{{ category | first }}</a>
+		  <a href="/{{ page.lang }}/categories/#aa{{ cn }}" data-toggle="tab">{{ category | first }}</a>
     </li>
 	{% endif %}
 {% endfor %}
 </ul>
 <div id="myTabContent" class="tab-content">
-{% for category in site.post %}
+{% for category in site.categories %}
 	{% capture cn %}{{ category | first }}{% endcapture %}
 	{% if categoryname != cn %}
 		{% assign categoryname = cn %}
@@ -37,6 +37,6 @@ lang: cn
 </div>
 <script>
     $(function () {
-        $('#myTab a[href="/{{ page.lang }}/post/'+window.location.hash+'"]').tab('show');
+        $('#myTab a[href="/{{ page.lang }}/categories/'+window.location.hash+'"]').tab('show');
     });
 </script>
