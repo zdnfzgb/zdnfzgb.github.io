@@ -5,38 +5,67 @@ permalink: /en/posts/
 lang: en
 ---
 
-<ul id="myTab" class="nav nav-tabs">
-  {% for category in site.categories %}
-  {% capture cn %}{{ category | first }}{% endcapture %}
-  {% if categoryname != cn %}
-  {% assign categoryname = cn %}
-  <li{% if forloop.first %} class="active"{% endif %}>
-	<a href="/{{ page.lang }}/post/#aa{{ cn }}" data-toggle="tab">{{ category | first }}</a>
-  </li>
-  {% endif %}
-  {% endfor %}
-</ul>
-<div id="myTabContent" class="tab-content">
-  {% for category in site.categories %}
-  {% capture cn %}{{ category | first }}{% endcapture %}
-  {% if categoryname != cn %}
-  {% assign categoryname = cn %}
-  {% if forloop.first %}{% else %}</div>{% endif %}
-<div class="tab-pane fade{% if forloop.first %} in active{% endif %}" id="aa{{ cn }}">
-  {% endif %}
-  {% for post in category.last %}
-  {% if post.lang contains page.lang %}
-  <p>
-	<time datetime="{{ post.date | date_to_string }}">{{ post.date | date: "%Y-%m-%d" }}</time>
-	<a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
-  </p>
-  {% endif %}
-  {% endfor %}
-  {% endfor %}
+<hr/>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/排名分析.png" alt="A Quote Machine">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="/2018/01/04/作品集可视化期中专题-en/" target="_blank">Visual midterm</a></h4>
+                <a class="btn btn-primary pull-right" href="/2018/01/04/作品集可视化期中专题-en/" target="_blank">read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/全国快递.png" alt="Baymax!">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="/2018/01/04/作品集可视化期末专题-en/" target="_blank">Visual final project</a></h4>
+                <a class="btn btn-primary pull-right" href="/2018/01/04/作品集可视化期末专题-en/" target="_blank">read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/缺点分析.png" alt="Show Local Weather!">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="https://tumaorou.github.io/Tumaorou.github.io/portfolio/middle-subject/" target="_blank">Mid - term website presentation</a></h4>
+                <a class="btn btn-primary pull-right" href="https://tumaorou.github.io/Tumaorou.github.io/portfolio/middle-subject/" target="_blank">Web demo</a>
+            </div>
+        </div>
+    </div>
 </div>
+<div class="row">
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/排名分析.png" alt="A Quote Machine">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="/2018/01/04/作品集可视化期中专题-en/" target="_blank">Visual midterm</a></h4>
+                <a class="btn btn-primary pull-right" href="/2018/01/04/作品集可视化期中专题-en/" target="_blank">read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/全国快递.png" alt="Baymax!">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="/2018/01/04/作品集可视化期末专题-en/" target="_blank">Visual final project</a></h4>
+                <a class="btn btn-primary pull-right" href="/2018/01/04/作品集可视化期末专题-en/" target="_blank">read more</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4">
+        <div class="thumbnail">
+            <img src="/img-tableau/缺点分析.png" alt="Show Local Weather!">
+            <div class="caption clearfix">
+                <h4><a class="posts-list-name" href="https://tumaorou.github.io/Tumaorou.github.io/portfolio/middle-subject/" target="_blank">Mid - term website presentation</a></h4>
+                <a class="btn btn-primary pull-right" href="https://tumaorou.github.io/Tumaorou.github.io/portfolio/middle-subject/" target="_blank">Web demo</a>
+            </div>
+        </div>
+    </div>
 </div>
 <script>
-$(function () {
-	  $('#myTab a[href="/{{ page.lang }}/post/'+window.location.hash+'"]').tab('show');
-  });
+    $(function () {
+        $('#myTab a[href="/{{ page.lang }}/tags/'+window.location.hash+'"]').tab('show');
+    });
 </script>
