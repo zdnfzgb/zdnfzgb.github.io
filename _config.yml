@@ -30,7 +30,7 @@ exclude: ['README.md','Manifest.md']
 include: ['robots.txt']
 
 # Description
-description: "个人学习笔记与作品展示。Personal study notes and works."
+description: "个人简历及作品展示。Resume and work display."
 # Keywords
 keywords:
         - "github"
@@ -40,7 +40,7 @@ keywords:
         - "jekyll"
         - "博客"
         - "Tableau"
-        - "个人作业展示"
+        - "个人作品展示"
         
 #Update configuration
 versioncode: 1
